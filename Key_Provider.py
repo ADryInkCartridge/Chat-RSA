@@ -43,8 +43,8 @@ def simple_modinv(a,m):
 def generate_keys():
   # Generate the public and private keys for the RSA algorithm
   primes = read_primes()
-  p = randrange(0, 10)
-  q = randrange(p, 20)
+  p = randrange(0, 30)
+  q = randrange(p, 50)
 
   p = primes[p]
   q = primes[q]
